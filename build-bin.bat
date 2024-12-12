@@ -4,7 +4,9 @@ set root="%~dp0"
 pushd %root%
 
 ::newline
-nl\build.bat && copy nl\x64\nl.exe nl.exe
- 
+call nl\build.bat
+echo %cd%
+copy /v /b "%CD%\nl\x64\nl.exe" "%CD%\nl.exe"
+
 popd
 endlocal
