@@ -1,3 +1,6 @@
 [submodule "nl"]
 	path = nl
 	url = https://github.com/Stehfyn/nl
+[submodule "ntstr"]
+	path = ntstr
+	url = https://github.com/Stehfyn/ntstr
